@@ -10,7 +10,11 @@
     tools:context="id.sch.smktelkom_mlg.learn.advancedwidget1.MainActivity">
 
     <LinearLayout
+        android:id="@+id/linearLayoutMain"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"></LinearLayout>
+        android:orientation="vertical"
+        android:weightSum="1">
+
+    </LinearLayout>
 </RelativeLayout>
